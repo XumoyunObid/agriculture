@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { products } from "../../../Data/ProductsData";
-import CategoryCard from "./Components/CategoryCard";
+import Card from "../../../Components/Card";
 import ChevronRightIcon from "../../../assets/Icons/ChevronRightIcon";
 import Button from "../../../UI/Button/Button";
 
@@ -14,9 +14,9 @@ const Categories = () => {
         </h1>
         <ul className="flex gap-[20px] pt-[40px] flex-wrap">
           {products.slice(0, 8).map((item) => (
-            <li>
-              <Link>
-                <CategoryCard {...item} />
+            <li key={item.id}>
+              <Link to={`singleproduct/${item.id}`}>
+                <Card {...item} />
               </Link>
             </li>
           ))}

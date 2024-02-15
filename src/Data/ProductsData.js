@@ -131,3 +131,26 @@ export const products = [
     discount: "20.00",
   },
 ];
+
+export const testimonials = [
+  {
+    id: 1,
+    title: "100%",
+    text: "Organic",
+  },
+  {
+    id: 2,
+    title: "285",
+    text: "Active Products",
+  },
+  {
+    id: 3,
+    title: "350+",
+    text: "Organic Orchads",
+  },
+  {
+    id: 4,
+    title: "25+",
+    text: "Years of Farming",
+  },
+];

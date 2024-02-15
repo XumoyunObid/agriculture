@@ -11,6 +11,7 @@ export default {
         doctor: "#F9F8F8",
         heavySugar: "#EFF6F1",
         cityRain: "#525C60",
+        gallery: "#F1F8F4",
       },
       backgroundImage: {
         'aboutbg': "url('./src/assets/Home/aboutBg.png')",
@@ -18,7 +19,14 @@ export default {
         'shopbg': "url('./src/assets/Home/shopBg.png')",
         'singleshopbg': "url('./src/assets/Home/singleshopBg.jpg')",
         'offer1': "url('./src/assets/Home/offer1.png')",
-        'offer2': "url('./src/assets/Home/offer2.png')"
+        'offer2': "url('./src/assets/Home/offer2.png')",
+        'testimonial': "url('./src/assets/Home/testimonialBg.png')",
+        'organicjuice': "url('./src/assets/Home/juice.png')",
+        'organicfood': "url('./src/assets/Home/food.png')",
+        'cookies': "url('./src/assets/Home/cookies.png')",
+        'newsletter': "url('./src/assets/Home/newsletter.png')",
+        'salad': "url('./src/assets/Home/salad.png')",
+        'tomatoes': "url('./src/assets/Home/tomatoes.png')",
       }
     },
     container: {
