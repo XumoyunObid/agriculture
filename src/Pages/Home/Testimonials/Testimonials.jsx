@@ -7,7 +7,7 @@ const Testimonials = () => {
   return (
     <div className="bg-testimonial bg-cover bg-center bg-no-repeat">
       <div className="container px-[50px] py-[105px] flex flex-col items-center">
-        <h3 className="text-secondary text-4xl italic">Testimonial</h3>
+        <h3 className="text-secondary text-4xl italic font-secondary">Testimonial</h3>
         <h1 className="text-[50px] font-extrabold text-primary">
           What Our Customer Saying?
         </h1>

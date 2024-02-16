@@ -8,7 +8,7 @@ const EcoFriendly = () => {
         className="absolute left-0 shadow-lg top-0 bottom-0 w-1/2"
       />
       <div className="py-[80px] px-[90px] rounded-2xl shadow-xl w-1/2 absolute flex flex-col gap-3 bg-white top-[100px] right-[110px]">
-        <h3 className="text-secondary text-2xl italic">Eco Friendly</h3>
+        <h3 className="text-secondary text-2xl italic font-secondary">Eco Friendly</h3>
         <h1 className="text-[35px] font-extrabold text-primary">
           Econis is a Friendly <br /> Organic Store
         </h1>

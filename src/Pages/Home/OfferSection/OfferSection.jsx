@@ -10,7 +10,9 @@ const OfferSection = () => {
       <div className="container px-[50px]">
         <div className="flex items-center justify-between">
           <div>
-            <h3 className="text-secondary text-4xl italic">Offer</h3>
+            <h3 className="text-secondary text-4xl italic font-secondary">
+              Offer
+            </h3>
             <h1 className="text-[50px] font-extrabold text-white">
               We Offer Organic For You
             </h1>
@@ -20,9 +22,9 @@ const OfferSection = () => {
           </Button>
         </div>
         <ul className="flex gap-[20px] pt-[40px] justify-between flex-wrap">
-          {products.slice(8, 12).map((item) => (
+          {products.slice(12, 16).map((item) => (
             <li key={item.id}>
-              <Link to={`singleproduct/${item.id}`} className="group">
+              <Link to={`shop/singleproduct/${item.id}`} className="group">
                 <Card {...item} />
               </Link>
             </li>

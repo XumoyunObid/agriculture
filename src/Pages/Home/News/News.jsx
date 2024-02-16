@@ -8,7 +8,7 @@ const News = () => {
       <div className="container px-[50px]">
         <div className="flex items-center justify-between">
           <div>
-            <h3 className="text-secondary text-4xl italic">News</h3>
+            <h3 className="text-secondary text-4xl italic font-secondary">News</h3>
             <h1 className="text-primary text-[50px] font-extrabold">
               Discover weekly content about <br /> organic food, & more
             </h1>

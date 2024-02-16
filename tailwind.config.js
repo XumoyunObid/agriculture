@@ -14,38 +14,41 @@ export default {
         gallery: "#F1F8F4",
       },
       backgroundImage: {
-        'aboutbg': "url('./src/assets/Home/aboutBg.png')",
-        'homebg': "url('./src/assets/Home/bannerBg.png')",
-        'shopbg': "url('./src/assets/Home/shopBg.png')",
-        'singleshopbg': "url('./src/assets/Home/singleshopBg.jpg')",
-        'offer1': "url('./src/assets/Home/offer1.png')",
-        'offer2': "url('./src/assets/Home/offer2.png')",
-        'testimonial': "url('./src/assets/Home/testimonialBg.png')",
-        'organicjuice': "url('./src/assets/Home/juice.png')",
-        'organicfood': "url('./src/assets/Home/food.png')",
-        'cookies': "url('./src/assets/Home/cookies.png')",
-        'newsletter': "url('./src/assets/Home/newsletter.png')",
-        'salad': "url('./src/assets/Home/salad.png')",
-        'tomatoes': "url('./src/assets/Home/tomatoes.png')",
-      }
+        aboutbg: "url('./src/assets/Home/aboutBg.png')",
+        homebg: "url('./src/assets/Home/bannerBg.png')",
+        shopbg: "url('./src/assets/Home/shopBg.png')",
+        singleshopbg: "url('./src/assets/Home/singleshopBg.jpg')",
+        offer1: "url('./src/assets/Home/offer1.png')",
+        offer2: "url('./src/assets/Home/offer2.png')",
+        testimonial: "url('./src/assets/Home/testimonialBg.png')",
+        organicjuice: "url('./src/assets/Home/juice.png')",
+        organicfood: "url('./src/assets/Home/food.png')",
+        cookies: "url('./src/assets/Home/cookies.png')",
+        newsletter: "url('./src/assets/Home/newsletter.png')",
+        salad: "url('./src/assets/Home/salad.png')",
+        tomatoes: "url('./src/assets/Home/tomatoes.png')",
+      },
+      fontFamily: {
+        secondary: ["Yellowtail", "sans-serif"],
+      },
     },
     container: {
       center: true,
     },
     screens: {
-      'sm': '640px',
+      sm: "640px",
       // => @media (min-width: 640px) { ... }
 
-      'md': '768px',
+      md: "768px",
       // => @media (min-width: 768px) { ... }
 
-      'lg': '1024px',
+      lg: "1024px",
       // => @media (min-width: 1024px) { ... }
 
-      'xl': '1400px',
+      xl: "1400px",
       // => @media (min-width: 1280px) { ... }
 
-      '2xl': '1536px',
+      "2xl": "1536px",
     },
   },
   plugins: [],

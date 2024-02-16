@@ -16,7 +16,7 @@ function App() {
               element={route.component}
             />
           ))}
-          <Route path="singleproduct/:id" element={<SingleProducts />} />
+          <Route path="shop/singleproduct/:id" element={<SingleProducts />} />
         </Route>
       </Routes>
     </>
