@@ -7,7 +7,9 @@ const AboutBanner = () => {
       style={{ backgroundPosition: "center", backgroundSize: "cover" }}
     >
       <img src={bannerBg} className="absolute" alt="" />
-      <h1 className="text-primary text-[50px] font-extrabold">About Us</h1>
+      <h1 className="text-primary text-[50px] font-extrabold absolute">
+        About Us
+      </h1>
     </div>
   );
 };
