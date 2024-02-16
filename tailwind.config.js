@@ -15,7 +15,7 @@ export default {
       },
       backgroundImage: {
         aboutbg: "url('./src/assets/Home/aboutBg.png')",
-        homebg: "url('./src/assets/Home/bannerBg.png')",
+        homebg: "url('./bannerBg.png')",
         shopbg: "url('./src/assets/Home/shopBg.png')",
         singleshopbg: "url('./src/assets/Home/singleshopBg.jpg')",
         offer1: "url('./src/assets/Home/offer1.png')",
