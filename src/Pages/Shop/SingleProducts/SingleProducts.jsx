@@ -1,8 +1,8 @@
 import Description from "./Description";
 import ProductWrapper from "./ProductWrapper";
 import SingleProductBanner from "./SingleProductBanner";
-import Newsletter from "./../../Home/Testimonials/Components/Newsletter";
 import RelatedProducts from "./RelatedProducts";
+import Newsletter from "../../../Components/Newsletter";
 
 const SingleProducts = () => {
   return (

@@ -1,3 +1,4 @@
+import Newsletter from "../../Components/Newsletter";
 import AboutUs from "./AboutUs/AboutUs";
 import Banner from "./Banner/Banner";
 import Categories from "./Categories/Categories";
@@ -6,7 +7,6 @@ import Gallery from "./Gallery/Gallery";
 import News from "./News/News";
 import Offer from "./Offer/Offer";
 import OfferSection from "./OfferSection/OfferSection";
-import Newsletter from "./Testimonials/Components/Newsletter";
 import Testimonials from "./Testimonials/Testimonials";
 
 const Home = () => {

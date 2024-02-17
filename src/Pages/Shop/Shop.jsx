@@ -1,7 +1,7 @@
 import React from "react";
 import ShopBanner from "./Components/ShopBanner";
-import Newsletter from "./../Home/Testimonials/Components/Newsletter";
 import Products from "./Products/Products";
+import Newsletter from "../../Components/Newsletter";
 
 const Shop = () => {
   return (
