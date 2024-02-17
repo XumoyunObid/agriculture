@@ -2,13 +2,18 @@ import Button from "../../../UI/Button/Button";
 import NextButton from "../../../UI/Button/NextButton";
 import UserIcon from "./../../../assets/Icons/UserIcon";
 
+import bgSalad from "../../../assets/Home/salad.png";
+import bgTomatoes from "../../../assets/Home/tomatoes.png";
+
 const News = () => {
   return (
     <div className="py-[180px]">
       <div className="container px-[50px]">
         <div className="flex items-center justify-between">
           <div>
-            <h3 className="text-secondary text-4xl italic font-secondary">News</h3>
+            <h3 className="text-secondary text-4xl italic font-secondary">
+              News
+            </h3>
             <h1 className="text-primary text-[50px] font-extrabold">
               Discover weekly content about <br /> organic food, & more
             </h1>
@@ -18,7 +23,13 @@ const News = () => {
           </Button>
         </div>
         <div className="flex gap-[45px] justify-between pt-[45px]">
-          <div className="bg-salad bg-cover bg-no-repeat bg-center rounded-[30px] w-1/2 h-[550px] relative">
+          <div
+            className="bg-cover bg-no-repeat bg-center rounded-[30px] w-1/2 h-[550px] relative"
+            style={{
+              backgroundImage: `url(${bgSalad})`,
+              backgroundRepeat: "no-repeat",
+            }}
+          >
             <div className="rounded-full px-[25px] font-extrabold flex flex-col items-center py-[15px] bg-white absolute top-[40px] left-[40px]">
               <p className="text-primary text-lg">25</p>
               <p className="text-primary text-lg">Nov</p>
@@ -43,7 +54,13 @@ const News = () => {
               </Button>
             </div>
           </div>
-          <div className="bg-tomatoes bg-cover bg-no-repeat bg-center rounded-[30px] w-1/2 h-[550px] relative">
+          <div
+            className="bg-cover bg-no-repeat bg-center rounded-[30px] w-1/2 h-[550px] relative"
+            style={{
+              backgroundImage: `url(${bgTomatoes})`,
+              backgroundRepeat: "no-repeat",
+            }}
+          >
             <div className="rounded-full px-[25px] font-extrabold flex flex-col items-center py-[15px] bg-white absolute top-[40px] left-[40px]">
               <p className="text-primary text-lg">25</p>
               <p className="text-primary text-lg">Nov</p>

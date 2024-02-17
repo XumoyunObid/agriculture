@@ -3,11 +3,21 @@ import sara from "../../../assets/Home/sara.jpg";
 import RatingStars from "../../../assets/Icons/RatingStars";
 import Card from "./Components/Card";
 
+import bg from "../../../assets/Home/testimonialBg.png";
+
 const Testimonials = () => {
   return (
-    <div className="bg-testimonial bg-cover bg-center bg-no-repeat">
+    <div
+      className="bg-cover bg-center bg-no-repeat"
+      style={{
+        backgroundImage: `url(${bg})`,
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <div className="container px-[50px] py-[105px] flex flex-col items-center">
-        <h3 className="text-secondary text-4xl italic font-secondary">Testimonial</h3>
+        <h3 className="text-secondary text-4xl italic font-secondary">
+          Testimonial
+        </h3>
         <h1 className="text-[50px] font-extrabold text-primary">
           What Our Customer Saying?
         </h1>
