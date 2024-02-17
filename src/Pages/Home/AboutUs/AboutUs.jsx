@@ -3,8 +3,14 @@ import OrgaincFoodIcon from "./../../../assets/Icons/OrgaincFoodIcon";
 import MailBoxIcon from "./../../../assets/Icons/MailBoxIcon";
 import Button from "../../../UI/Button/Button";
 import NextButton from "../../../UI/Button/NextButton";
+import { useNavigate } from "react-router-dom";
 
 const AboutUs = () => {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate("/shop");
+  };
   return (
     <div className="bg-doctor">
       <div className="container px-[50px] pb-[100px] pt-[185px] flex">
@@ -49,7 +55,7 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-          <Button variant="primary" className="flex items-center gap-[10px]">
+          <Button variant="primary" className="flex items-center gap-[10px]" onClick={handleNavigate}>
             Shop Now <NextButton />
           </Button>
         </div>

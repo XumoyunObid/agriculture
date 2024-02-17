@@ -1,10 +1,15 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { products } from "../../../Data/ProductsData";
 import Button from "../../../UI/Button/Button";
 import NextButton from "../../../UI/Button/NextButton";
 import Card from "../../../Components/Card";
 
 const OfferSection = () => {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate("/shop");
+  };
   return (
     <div className="bg-primary py-[200px]">
       <div className="container px-[50px]">
@@ -17,7 +22,7 @@ const OfferSection = () => {
               We Offer Organic For You
             </h1>
           </div>
-          <Button variant="secondary" className="flex items-center gap-2">
+          <Button variant="secondary" className="flex items-center gap-2" onClick={handleNavigate}>
             View All Products <NextButton />
           </Button>
         </div>

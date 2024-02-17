@@ -3,8 +3,14 @@ import MoernEquipmentIcon from "./../../assets/Icons/MoernEquipmentIcon";
 import FactoryIcon from "./../../assets/Icons/FactoryIcon";
 import Button from "./../../UI/Button/Button";
 import NextButton from "./../../UI/Button/NextButton";
+import { useNavigate } from "react-router-dom";
 
 const AboutUs = () => {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate("/shop");
+  };
   return (
     <div className="py-[150px]">
       <div className="flex items-center gap-[40px] container px-[50px]">
@@ -38,7 +44,11 @@ const AboutUs = () => {
               </h3>
             </div>
           </div>
-          <Button variant="primary" className="flex items-center gap-3">
+          <Button
+            variant="primary"
+            className="flex items-center gap-3"
+            onClick={handleNavigate}
+          >
             Explore More <NextButton />
           </Button>
         </div>

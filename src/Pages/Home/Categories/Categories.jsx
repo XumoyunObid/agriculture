@@ -1,10 +1,15 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { products } from "../../../Data/ProductsData";
 import Card from "../../../Components/Card";
 import Button from "../../../UI/Button/Button";
 import NextButton from "../../../UI/Button/NextButton";
 
 const Categories = () => {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate("/shop");
+  };
   return (
     <div>
       <div className="container py-[175px] flex flex-col items-center px-[50px]">
@@ -24,6 +29,7 @@ const Categories = () => {
         <Button
           variant="primary"
           className="flex items-center gap-3 mt-[140px]"
+          onClick={handleNavigate}
         >
           Load More <NextButton/>
         </Button>
