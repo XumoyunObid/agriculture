@@ -15,9 +15,7 @@ const Banner = () => {
       style={{ backgroundPosition: "center", backgroundSize: "cover" }}
     >
       <img src={bannerBg} className="absolute" alt="" />
-      <div
-        className="container px-[50px] flex flex-col items-start justify-center pt-[8%] absolute left-[5%]"
-      >
+      <div className="container px-[50px] flex flex-col items-start justify-center pt-[8%] absolute left-[5%]">
         <h2 className="text-4xl text-secondary italic font-secondary">
           100% Natural Food
         </h2>
@@ -26,7 +24,7 @@ const Banner = () => {
         </h1>
         <Button
           variant="secondary"
-          className="flex items-center gap-[15px]"
+          className="flex items-center gap-[15px] mt-6"
           onClick={handleNavigate}
         >
           Explore Now <NextButton />
