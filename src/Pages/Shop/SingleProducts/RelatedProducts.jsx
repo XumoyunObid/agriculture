@@ -1,6 +1,7 @@
 import React from "react";
 import { products } from "../../../Data/ProductsData";
 import Card from "../../../Components/Card";
+import { Link } from "react-router-dom";
 
 const RelatedProducts = () => {
   return (
@@ -11,7 +12,9 @@ const RelatedProducts = () => {
       <ul className="flex gap-[20px] pt-[40px] flex-wrap">
         {products.slice(0, 4).map((item) => (
           <li key={item.id}>
-            <Card {...item} />
+            <Link>
+              <Card {...item} />
+            </Link>
           </li>
         ))}
       </ul>
