@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import MainLayout from "./Layout/MainLayout";
 import { main_pages } from "./Router/MainRouter";
 import SingleProducts from "./Pages/Shop/SingleProducts/SingleProducts";
+import NotFound from "./Pages/NotFound/NotFound";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             />
           ))}
           <Route path="shop/singleproduct/:id" element={<SingleProducts />} />
+          <Route path="*" element={<NotFound/>}/>
         </Route>
       </Routes>
     </>

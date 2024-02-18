@@ -16,7 +16,9 @@ const AboutUs = () => {
       <div className="container px-[50px] pb-[100px] pt-[185px] flex">
         <img className="w-1/2" src={img} alt="" />
         <div className="w-1/2">
-          <h3 className="text-secondary text-4xl italic font-secondary">About Us</h3>
+          <h3 className="text-secondary text-4xl italic font-secondary">
+            About Us
+          </h3>
           <h1 className="text-primary text-[50px] font-extrabold">
             We Believe in Working <br /> Accredited Farmers
           </h1>
@@ -55,7 +57,11 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-          <Button variant="primary" className="flex items-center gap-[10px]" onClick={handleNavigate}>
+          <Button
+            variant="primary"
+            className="flex items-center gap-[10px]"
+            onClick={handleNavigate}
+          >
             Shop Now <NextButton />
           </Button>
         </div>
