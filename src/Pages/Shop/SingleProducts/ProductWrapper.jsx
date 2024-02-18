@@ -16,7 +16,7 @@ const ProductWrapper = () => {
   return (
     <div className="container px-[50px] flex gap-[85px] pt-[110px]">
       <div className="rounded-[30px] w-1/2 bg-white relative px-[30px] py-[20px] border shadow-xl flex flex-col justify-between items-center h-[500px]">
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center py-[50px]">
           <div className="rounded-[8px] text-white bg-primary py-[6px] px-[12px] absolute top-8 left-8">
             {product.status}
           </div>
